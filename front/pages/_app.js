@@ -4,6 +4,7 @@ import Head from "next/head";
 import "antd/dist/antd.css";
 
 import wrapper from "../store/configureStore";
+import AppLayout from "../components/AppLayout";
 
 const NodeBird = ({ Component }) => {
   return (
